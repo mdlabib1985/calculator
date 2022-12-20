@@ -48,17 +48,5 @@
         </div>
     </div>
 
-    <script>
-        let string = "";
-		let btn = document.querySelectorAll('.btn');
-
-        Array.from(btn).forEach((btn)=>{
-            btn.addEventListener('click', (e)=>{
-                console.log(e.target);
-                string = string + e.target.innerHTML;
-                document.querySelector('input').value = string;
-            });
-        });
-    </script>
 </body>
 </html>
